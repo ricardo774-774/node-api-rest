@@ -13,6 +13,8 @@ console.log(process.env.PORT);
 // api availability 
 app.use(cors());
 
+app.use(express.json());
+
 // routes
 app.use(router);
 
